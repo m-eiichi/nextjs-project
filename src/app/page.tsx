@@ -56,7 +56,7 @@ export default function Home() {
             Read our docs
           </a>
         </div>
-        <Button>SHADCN BUTTOM</Button>
+        <Button>SHADCN BUTTON</Button>
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
             <AccordionTrigger>Is it accessible?</AccordionTrigger>
