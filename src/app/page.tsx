@@ -1,12 +1,16 @@
 import Image from "next/image";
-import { Button } from "@/components/ui_elements/button";
+import { Button } from "@/components/ui_elements/button/button";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui_elements/accordion";
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui_elements/alert";
+import {
+  Alert,
+  AlertDescription,
+  AlertTitle,
+} from "@/components/ui_elements/alert";
 
 export default function Home() {
   return (
