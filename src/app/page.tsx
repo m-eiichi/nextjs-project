@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Button } from "@/components/ui_elements/button/button";
+import { Button } from "@/components/ui_elements/button";
 import {
   Accordion,
   AccordionContent,
@@ -59,7 +59,7 @@ export default function Home() {
             Read our docs
           </a>
         </div>
-        <Button>SHADCN BUTTON</Button>
+        <Button onClick={() => {}}>SHADCN BUTTON</Button>
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
             <AccordionTrigger>Is it accessible?</AccordionTrigger>
